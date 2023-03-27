@@ -1,0 +1,40 @@
+div {
+    display: flex;
+    background-color: white;
+    padding: 5px;
+}
+
+p {
+    width: 50%;
+}
+
+h1{
+    position: relative;
+    left: 410px;
+    font-family: fantasy;
+    color: white;
+    font-size: 50px;
+}
+
+#form{
+    position: relative;
+    left: 410px;
+    width: 730px;
+}
+
+#topform{
+    position: relative;
+    left: 410px;
+    width: 720px;
+    background-color: red;
+}
+
+a{
+    padding: 15px;
+    color: black;
+}
+
+body{
+    background-color: lightslategray;
+}
+
