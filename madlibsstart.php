@@ -10,8 +10,8 @@
         <h1>Mad Libs</h1>
         
         <div id="topform">
-            <a href="madlibs.html">er heerst paniek</a>
-            <a href="onkunde.html">onkunde</a>
+            <a href="madlibsstart.php">er heerst paniek</a>
+            <a href="onkundestart.php">onkunde</a>
         </div>
 
         <form action="madlibs.php" method="post" id="form">
@@ -20,45 +20,47 @@
             </div>
             <div>
                 <p>welk dier zou je nooit als huisdier willen hebben</p>
-                <input>
+                <input  name="fdier">
             </div>
 
             <div>
                 <p>wie is de belangrijkste persoon in je leven</p>
-                <input>
+                <input  name="fbelangrijkpersoon">
             </div>
 
             <div>
                 <p>In welk land zou je graag willen wonen</p>
-                <input>
+                <input  name="fland">
             </div>
 
             <div>
                 <p>Wat doe je als je je verveeld</p>
-                <input>
+                <input  name="fverveeld">
             </div>
 
             <div>
                 <p>met welk speelgoed speelde ja als kind het meest?</p>
-                <input>
+                <input  name="fspeelgoed">
             </div>
 
             <div>
                 <p>bij welke docent spijbel je het liefst?</p>
-                <input>
+                <input  name="docent">
             </div>
 
             <div>
                 <p>als je 100.000 euro had, wat zou je dan kopen?</p>
-                <input>
+                <input  name="fgeld">
             </div>
 
             <div>
                 <p>wat is je favoriete bezigheid</p>
-                <input>
+                <input  name="fbezigheid">
             </div>
-
-            <input type="submit"> 
+            
+            <div>
+                <input type="submit"> 
+            </div>
 
         </form>
 

@@ -38,3 +38,9 @@ body{
     background-color: lightslategray;
 }
 
+#formanswer{
+    position: relative;
+    display: block;
+    left: 410px;
+    width: 720px;
+}
