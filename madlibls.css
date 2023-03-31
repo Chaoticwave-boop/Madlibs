@@ -44,3 +44,7 @@ body{
     left: 410px;
     width: 720px;
 }
+
+#p {
+    color: red;
+}
