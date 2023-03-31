@@ -45,7 +45,7 @@
                 </div>
                 <div>
                     <p>welk dier zou je nooit als huisdier willen hebben</p>
-                    <input  name="fdier">
+                    <input  name="fdier" value="<?php echo isset($_POST['fdier']) ? $_POST['fdier'] : '' ?>">
                     <?php 
                         if (array_key_exists('fdier', $error)) { ?>
                             <p id="error">je hebt dit veld niet ingevuld </p>
@@ -55,7 +55,7 @@
     
                 <div>
                     <p>wie is de belangrijkste persoon in je leven</p>
-                    <input  name="fbelangrijkpersoon">
+                    <input  name="fbelangrijkpersoon" value="<?php echo isset($_POST['fbelangrijkpersoon']) ? $_POST['fbelangrijkpersoon'] : '' ?>">
                     <?php 
                         if (array_key_exists('fbelangrijkpersoon', $error)) { ?>
                             <p id="error">je hebt dit veld niet ingevuld </p>
@@ -65,7 +65,7 @@
 
                 <div>
                     <p>wat was je favoriete speelgoed als kind?</p>
-                    <input  name="fspeelgoed">
+                    <input  name="fspeelgoed" value="<?php echo isset($_POST['fspeelgoed']) ? $_POST['fspeelgoed'] : '' ?>">
                     <?php 
                         if (array_key_exists('fspeelgoed', $error)) { ?>
                             <p id="error">je hebt dit veld niet ingevuld </p>
@@ -75,7 +75,7 @@
     
                 <div>
                     <p>In welk land zou je graag willen wonen</p>
-                    <input  name="fland">
+                    <input  name="fland" value="<?php echo isset($_POST['fland']) ? $_POST['fland'] : '' ?>">
                     <?php 
                         if (array_key_exists('fland', $error)) { ?>
                             <p id="error">je hebt dit veld niet ingevuld </p>
@@ -85,7 +85,7 @@
     
                 <div>
                     <p>Wat doe je als je je verveeld</p>
-                    <input  name="fverveeld">
+                    <input  name="fverveeld" value="<?php echo isset($_POST['fverveeld']) ? $_POST['fverveeld'] : '' ?>">
                     <?php 
                         if (array_key_exists('fverveeld', $error)) { ?>
                             <p id="error">je hebt dit veld niet ingevuld </p>
@@ -95,7 +95,7 @@
     
                 <div>
                     <p>bij welke docent spijbel je het liefst?</p>
-                    <input  name="docent">
+                    <input  name="docent" value="<?php echo isset($_POST['fdocent']) ? $_POST['fdocent'] : '' ?>">
                     <?php 
                         if (array_key_exists('docent', $error)) { ?>
                             <p id="error">je hebt dit veld niet ingevuld </p>
@@ -105,7 +105,7 @@
     
                 <div>
                     <p>als je 100.000 euro had, wat zou je dan kopen?</p>
-                    <input  name="fgeld">
+                    <input  name="fgeld" value="<?php echo isset($_POST['fgeld']) ? $_POST['fgeld'] : '' ?>">
                     <?php 
                         if (array_key_exists('fgeld', $error)) { ?>
                             <p id="error">je hebt dit veld niet ingevuld </p>
@@ -115,7 +115,7 @@
     
                 <div>
                     <p>wat is je favoriete bezigheid</p>
-                    <input  name="fbezigheid">
+                    <input  name="fbezigheid" value="<?php echo isset($_POST['fbezigheid']) ? $_POST['fbezigheid'] : '' ?>">
                     <?php 
                         if (array_key_exists('fbezigheid', $error)) { ?>
                             <p id="error">je hebt dit veld niet ingevuld </p>
